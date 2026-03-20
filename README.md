@@ -4,7 +4,7 @@ A modern Windows file explorer replacement built with Tauri v2. Fast, lightweigh
 
 **4.1 MB installer. ~35 MB RAM. No Electron.**
 
-![Demo](demo-v3.gif)
+![Demo](screenshots/demo-v3.gif)
 
 ---
 
@@ -25,99 +25,99 @@ No other dependencies. No admin rights needed for per-user install.
 ### This PC View
 Drive capacity bars, folder shortcuts, network -- all at a glance.
 
-![This PC](this-pc.png)
+![This PC](screenshots/this-pc.png)
 
 ### File Browser
 Rainbow folders, file counts, natural sort, breadcrumb navigation.
 
-![File List](file-list.png)
+![File List](screenshots/file-list.png)
 
 ### Breadcrumb Dropdown Navigation
 Click the dropdown arrow on any breadcrumb segment to see sibling folders and jump directly.
 
-![Breadcrumb Dropdown](breadcrumb-dropdown.png)
+![Breadcrumb Dropdown](screenshots/breadcrumb-dropdown.png)
 
 ### Inline Peek
 Expand folders in-place without navigating away.
 
-![Peek](peek-expand.png)
+![Peek](screenshots/peek-expand.png)
 
 ### Context Menu with File Tags
 Right-click context menu with tag submenu -- mark files as Important, Archive, Favorite, Private, Done, In Progress, or Pinned. Tags show as colored icons in a dedicated column.
 
-![Context Menu Tags](context-menu-tags.png)
+![Context Menu Tags](screenshots/context-menu-tags.png)
 
-![Context Menu Tags v2](context-menu-tags-v2.png)
+![Context Menu Tags v2](screenshots/context-menu-tags-v2.png)
 
 ### File Age Coloring
 Date columns color-coded by age -- green for today, cyan for this week, fading to gray for older files. Hover the column header for the color legend.
 
-![Age Color Legend](age-color-legend.png)
+![Age Color Legend](screenshots/age-color-legend.png)
 
 ### 12 Themes + Full Customization
 Dark, light, high contrast, Dracula, Nord, Catppuccin, Synthwave, Cyberpunk, and more. Custom theme creator, accent colors, window effects (Mica, Acrylic).
 
-![Settings](settings-themes.png)
+![Settings](screenshots/settings-themes.png)
 
 ### Split Panes
 Side-by-side browsing with independent tabs per pane.
 
-![Split Panes](split-panes.png)
+![Split Panes](screenshots/split-panes.png)
 
 ### Integrated Terminal
 Full PowerShell PTY -- run Claude Code, git, npm, anything. First-class tab alongside explorer.
 
-![Terminal](terminal.png)
+![Terminal](screenshots/terminal.png)
 
 ### Claude Theme + Widgets
 Custom Claude theme, flip clock, live weather, Spotify controls, system stats, disk space -- all configurable.
 
-![Claude Theme](claude-theme.png)
+![Claude Theme](screenshots/claude-theme.png)
 
 ### Full Layout
 Bible verse marquee, draggable titlebar widgets, footer widget bar with Spotify + system stats.
 
-![Full Layout](full-layout.png)
+![Full Layout](screenshots/full-layout.png)
 
 ### Context Menu
 Open With, Compress to ZIP/7z/TAR, Extract, Create Shortcut, Properties, Tags, New Folder -- everything you'd expect.
 
-![Context Menu](context-menu.png)
+![Context Menu](screenshots/context-menu.png)
 
 ### Grid View + Quick Preview
 Grid mode with colorful file icons. Press Space for instant file preview overlay.
 
-![Grid View](grid-view-v2.png)
+![Grid View](screenshots/grid-view-v2.png)
 
 ### In-App Properties
 File properties with size, dates, deep folder stats, and attribute toggles (Read-only, Hidden, System).
 
-![Properties](properties-panel.png)
+![Properties](screenshots/properties-panel.png)
 
 ### Treemap View
 Disk space visualization -- rectangles sized proportionally to file size. Color gradient from blue (tiny) through green/yellow to red (massive). Click to drill into folders.
 
-![Treemap](treemap.png)
+![Treemap](screenshots/treemap.png)
 
 ### Miller Columns
 macOS-style column navigation -- each folder opens as a new column to the right. See your full path at a glance.
 
-![Miller Columns](miller-columns.png)
+![Miller Columns](screenshots/miller-columns.png)
 
 ### Gallery View
 Large preview of selected file with horizontal thumbnail strip for scrubbing.
 
-![Gallery](gallery-view.png)
+![Gallery](screenshots/gallery-view.png)
 
 ### Tiles View
 Medium icons with metadata (type, size, date) beside each item.
 
-![Tiles](tiles-view.png)
+![Tiles](screenshots/tiles-view.png)
 
 ### Flat View
 Every file from all subfolders in one searchable list. 1669 files at a glance.
 
-![Flat View](flat-view.png)
+![Flat View](screenshots/flat-view.png)
 
 ---
 
