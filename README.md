@@ -32,10 +32,27 @@ Rainbow folders, file counts, natural sort, breadcrumb navigation.
 
 ![File List](file-list.png)
 
+### Breadcrumb Dropdown Navigation
+Click the dropdown arrow on any breadcrumb segment to see sibling folders and jump directly.
+
+![Breadcrumb Dropdown](breadcrumb-dropdown.png)
+
 ### Inline Peek
 Expand folders in-place without navigating away.
 
 ![Peek](peek-expand.png)
+
+### Context Menu with File Tags
+Right-click context menu with tag submenu -- mark files as Important, Archive, Favorite, Private, Done, In Progress, or Pinned. Tags show as colored icons in a dedicated column.
+
+![Context Menu Tags](context-menu-tags.png)
+
+![Context Menu Tags v2](context-menu-tags-v2.png)
+
+### File Age Coloring
+Date columns color-coded by age -- green for today, cyan for this week, fading to gray for older files. Hover the column header for the color legend.
+
+![Age Color Legend](age-color-legend.png)
 
 ### 12 Themes + Full Customization
 Dark, light, high contrast, Dracula, Nord, Catppuccin, Synthwave, Cyberpunk, and more. Custom theme creator, accent colors, window effects (Mica, Acrylic).
@@ -63,14 +80,14 @@ Bible verse marquee, draggable titlebar widgets, footer widget bar with Spotify 
 ![Full Layout](full-layout.png)
 
 ### Context Menu
-Open With, Compress to ZIP, Extract, Create Shortcut, Properties, New Folder -- everything you'd expect.
+Open With, Compress to ZIP/7z/TAR, Extract, Create Shortcut, Properties, Tags, New Folder -- everything you'd expect.
 
 ![Context Menu](context-menu.png)
 
 ### Grid View + Quick Preview
 Grid mode with colorful file icons. Press Space for instant file preview overlay.
 
-![Grid View](grid-view.png)
+![Grid View](grid-view-v2.png)
 
 ### In-App Properties
 File properties with size, dates, deep folder stats, and attribute toggles (Read-only, Hidden, System).
@@ -78,12 +95,12 @@ File properties with size, dates, deep folder stats, and attribute toggles (Read
 ![Properties](properties-panel.png)
 
 ### Treemap View
-Disk space visualization — rectangles sized proportionally to file size. Color gradient from blue (tiny) through green/yellow to red (massive). Click to drill into folders.
+Disk space visualization -- rectangles sized proportionally to file size. Color gradient from blue (tiny) through green/yellow to red (massive). Click to drill into folders.
 
 ![Treemap](treemap.png)
 
 ### Miller Columns
-macOS-style column navigation — each folder opens as a new column to the right. See your full path at a glance.
+macOS-style column navigation -- each folder opens as a new column to the right. See your full path at a glance.
 
 ![Miller Columns](miller-columns.png)
 
@@ -108,20 +125,23 @@ Every file from all subfolders in one searchable list. 1669 files at a glance.
 
 ### Core Explorer
 - Tabbed browsing with split panels (horizontal/vertical)
-- List and grid views with sortable, resizable, show/hide columns
+- List and grid views with sortable, resizable, reorderable, show/hide columns
 - Group files by type, extension, size, or date
 - Inline folder peek (expand folders in-place without navigating)
-- Breadcrumb path bar with click-to-navigate and editable path input (Ctrl+L)
+- Breadcrumb path bar with click-to-navigate, dropdown sibling navigation, and editable path input (Ctrl+L)
 - Natural sort order (file2 before file10)
 - Virtual scrolling for large directories
 - File search with fuzzy matching (Ctrl+P)
 - 7 view modes: List, Grid, Miller Columns, Gallery, Tiles, Flat, Treemap
-- Treemap: disk space visualization with size-based color gradient (blue→red)
+- Treemap: disk space visualization with size-based color gradient
 - Miller Columns: macOS-style column navigation
 - Gallery: large preview + thumbnail strip
 - Flat View: recursive file listing across all subfolders
 - Folder sizes calculated and shown inline in Size column
-- File age coloring: green (today) → cyan (week) → gray (old)
+- File age coloring: green (today), cyan (week), fading to gray for older files, with color legend tooltip
+- Accessed column with age coloring
+- Draggable column headers with persisted order
+- File status tags (Important, Archive, Favorite, Private, Done, In Progress, Pinned) with icon column and filtering
 - Batch rename with preview
 - Type-ahead selection (start typing to jump to matching file)
 - Middle-click folder opens in new tab
@@ -143,13 +163,14 @@ Every file from all subfolders in one searchable list. 1669 files at a glance.
 - Full system clipboard integration (copy/paste between .files and Windows Explorer)
 - Native drag-and-drop to external apps (email, Slack, Explorer)
 - Drop files from other apps into .files
+- Cross-pane drag-and-drop between split panels
 - Ctrl+C/X/V keyboard shortcuts
 
 ### File Operations
 - Copy/move with progress bars and cancel
 - Conflict resolution dialog (Skip / Replace / Keep Both)
 - Undo/redo (Ctrl+Z) for copy, move, and create operations
-- Compress to ZIP and Extract All
+- Multi-format archive support: compress/extract ZIP, 7z, TAR, GZ, BZ2
 - Create shortcuts (.lnk)
 - Permanent delete (Shift+Delete) or Recycle Bin (Delete)
 - Recycle Bin browsing, restore, and empty
@@ -157,10 +178,11 @@ Every file from all subfolders in one searchable list. 1669 files at a glance.
 
 ### Context Menu
 - Open, Open With, Cut, Copy, Paste, Rename, Delete
-- Compress to ZIP, Extract All (for .zip files)
+- Compress to ZIP/7z/TAR, Extract All (for archive files)
 - Create Shortcut
-- Copy Path, Show in Explorer
+- Copy Name, Copy Path, Show in Explorer
 - Pin to Quick Access
+- Tag as... (Important, Archive, Favorite, Private, Done, In Progress, Pinned)
 - Properties (in-app panel with file attributes)
 - New Folder (Ctrl+Shift+N), New Text File
 
