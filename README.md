@@ -2,7 +2,7 @@
 
 A modern Windows file explorer replacement built with Tauri v2. Fast, lightweight, and packed with features that Windows Explorer should have had years ago.
 
-**4.1 MB installer. ~35 MB RAM. No Electron.**
+**4.1 MB installer. ~35 MB RAM.**
 
 ![Demo](screenshots/demo-v3.gif)
 
