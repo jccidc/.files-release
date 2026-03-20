@@ -22,7 +22,7 @@ The app works fully offline with no network access.
 
 If you discover a security vulnerability, please report it responsibly:
 
-- **Email:** jimmy@jimmycc.com
+- **Email:** jimmy@jccidc.com
 - **Do not** open a public issue for security vulnerabilities
 
 You can expect an initial response within 48 hours. We take security seriously and will work to address confirmed vulnerabilities promptly.

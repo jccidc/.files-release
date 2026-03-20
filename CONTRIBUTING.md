@@ -27,4 +27,4 @@ This is a closed-source project. The source code is not available for pull reque
 
 ## Questions & Support
 
-For general questions, open a [discussion](https://github.com/jccidc/.files-release/discussions) or reach out at **jimmy@jimmycc.com**.
+For general questions, open a [discussion](https://github.com/jccidc/.files-release/discussions) or reach out at **jimmy@jccidc.com**.

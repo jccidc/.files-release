@@ -18,7 +18,7 @@ We are committed to providing a welcoming and respectful environment for everyon
 
 ## Enforcement
 
-Instances of unacceptable behavior may be reported to **jimmy@jimmycc.com**. All reports will be reviewed and may result in a response deemed appropriate to the circumstances, including a temporary or permanent ban from interaction.
+Instances of unacceptable behavior may be reported to **jimmy@jccidc.com**. All reports will be reviewed and may result in a response deemed appropriate to the circumstances, including a temporary or permanent ban from interaction.
 
 ## Scope
 
