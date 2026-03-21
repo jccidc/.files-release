@@ -128,7 +128,7 @@ Every file from all subfolders in one searchable list. 1669 files at a glance.
 - List and grid views with sortable, resizable, reorderable, show/hide columns
 - Group files by type, extension, size, or date
 - Inline folder peek (expand folders in-place without navigating)
-- Breadcrumb path bar with click-to-navigate, dropdown sibling navigation, and editable path input (Ctrl+L)
+- Breadcrumb path bar with click-to-navigate, dropdown sibling navigation, autocomplete suggestions, and editable path input (Ctrl+L)
 - Natural sort order (file2 before file10)
 - Virtual scrolling for large directories
 - File search with fuzzy matching (Ctrl+P)
@@ -173,7 +173,7 @@ Every file from all subfolders in one searchable list. 1669 files at a glance.
 - Multi-format archive support: compress/extract ZIP, 7z, TAR, GZ, BZ2
 - Create shortcuts (.lnk)
 - Permanent delete (Shift+Delete) or Recycle Bin (Delete)
-- Recycle Bin browsing, restore, and empty
+- Recycle Bin view: browse, restore, and empty (type "recycle bin" in path bar)
 - Create symbolic links / junctions
 
 ### Context Menu
@@ -188,6 +188,7 @@ Every file from all subfolders in one searchable list. 1669 files at a glance.
 
 ### This PC View
 - Drive cards with capacity bars (instant load via Win32 API)
+- Known folder shortcuts read from Windows registry (supports folders moved to other drives)
 - Folder shortcuts: Desktop, Documents, Downloads, Pictures, Music, Videos
 - Network browser link
 
